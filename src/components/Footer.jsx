@@ -1,7 +1,7 @@
 import { HiHome } from "react-icons/hi"
 import { BiSearch, BiMoviePlay } from "react-icons/bi"
 import { FiPlusSquare } from "react-icons/fi"
-import samus from "../assets/images/Samus_Aran.png"
+// import samus from "../assets/images/Samus_Aran.png"
 
 export default function Footer()
 {
