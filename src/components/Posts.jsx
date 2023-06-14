@@ -30,6 +30,11 @@ export default function Posts()
                 </div>
                 <HiOutlineBookmark size="25" />
             </div>
+            <div className=" px-3">
+                <strong>10,000 likes</strong><br />
+                <p><strong>manchesterunited</strong> official 2023 calender</p>
+                <p>5 days ago</p>
+            </div>
         </div>
         </>
     )
