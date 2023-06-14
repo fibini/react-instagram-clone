@@ -9,7 +9,7 @@ export default function Nav() {
 
   return (
     <>
-      <div className=" flex justify-between bg-slate-200">
+      <div className=" flex justify-between bg-slate-100">
         <div className=" pl-5">
           <div className=" flex items-end cursor-pointer" onClick={() => setDropDownOpen((prev) => !prev)}>
             <h1>Instagram</h1>
@@ -24,7 +24,7 @@ export default function Nav() {
         </div>
       </div>
       {dropDownOpen && (
-        <div className="border-2 rounded-lg bg-white px-3 ml-5 w-fit">
+        <div className="border-2 rounded-lg bg-white px-3 ml-5 w-fit shadow-[15px_15px_50px_10px_rgba(0,0,0,0.25)]">
           <div className=" flex gap-6 items-center py-2">
             <h2>Following</h2>
             <SlPeople size="23" />
