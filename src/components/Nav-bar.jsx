@@ -24,7 +24,7 @@ export default function Nav() {
         </div>
       </div>
       {dropDownOpen && (
-        <div className="border-2 rounded-lg bg-white px-3 ml-5 w-fit shadow-[15px_15px_50px_10px_rgba(0,0,0,0.25)] fixed">
+        <div className="border-2 rounded-lg bg-white px-3 ml-5 w-fit shadow-[15px_15px_50px_10px_rgba(0,0,0,0.25)] fixed z-10">
           <div className=" flex gap-6 items-center py-2">
             <h2>Following</h2>
             <SlPeople size="23" />
