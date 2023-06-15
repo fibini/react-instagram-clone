@@ -19,67 +19,79 @@ export default function Status()
           clickable: true,
         }}
         // modules={[Pagination]}
-        className=" h-20 px-3"
+        className=" h-25 pb-2"
         >
-        <SwiperSlide className=" flex justify-center items-center">
-            <img src={cinema} alt="" className=" h-16 w-16 rounded-full" />
+        <SwiperSlide className=" text-center">
+            <div className="flex flex-col text-center items-center">
+                <div className=" flex justify-center items-center h-20 w-20 rounded-full">
+                    <img src={cinema} alt="" className=" h-16 w-16 rounded-full" />
+                </div>
+            </div>
+            <p className=" text-xs">Your story</p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src={gaming} alt="" className=" h-5/6 w-5/6 rounded-full" />
                 </div>
             </div>
-            
-            </SwiperSlide>
-        <SwiperSlide>
+            <p className=" text-xs">gaming_room</p>    
+        </SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src={akuma} alt="" className=" h-5/6 w-5/6 rounded-full" />
                 </div>
             </div>
-            </SwiperSlide>
-        <SwiperSlide>
+            <p className="text-xs">akuma</p>
+        </SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src={mans} alt="" className=" h-5/6 w-5/6 rounded-full" />
                 </div>
             </div>
+            <p className="text-xs">le_mans</p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src={tokyo} alt="" className=" h-5/6 w-5/6 rounded-full" />
                 </div>
             </div>
+            <p className="text-xs">tokyo</p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src={zimmer} alt="" className=" h-5/6 w-5/6 rounded-full" />
                 </div>
             </div>
+            <p className="text-xs">zimmer</p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src={samus} alt="" className=" h-5/6 w-5/6 rounded-full" />
                 </div>
             </div>
+            <p className="text-xs">samus</p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src="" alt="" className=" h-5/6 w-5/6" />
                 </div>
             </div>
+            <p className="text-xs"></p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" text-center">
             <div className="flex flex-col text-center items-center">
                 <div className=" flex justify-center items-center h-20 w-20 rounded-full border-2 border-red-500">
                     <img src="" alt="" className=" h-5/6 w-5/6" />
                 </div>
             </div>
+            <p className="text-xs"></p>
         </SwiperSlide>
       </Swiper>
 
