@@ -22,48 +22,47 @@ export default function Status()
         className=" h-20 px-3"
         >
         <SwiperSlide><img src={cinema} alt="" className=" h-14 w-14 rounded-full" /></SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className="flex flex-col text-center">
                 <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                     <img src={gaming} alt="" className=" h-5/6 w-5/6 rounded-full" />
                 </div>
-                <p className=" text-xs">gaming_room</p>
             </div>
             
             </SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                 <img src={akuma} alt="" className=" h-5/6 w-5/6 rounded-full" />
             </div>
             <p></p>
             </SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                 <img src={mans} alt="" className=" h-5/6 w-5/6 rounded-full" />
             </div>
             <p></p>
             </SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                 <img src={tokyo} alt="" className=" h-5/6 w-5/6 rounded-full" />
             </div>
             </SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                 <img src={zimmer} alt="" className=" h-5/6 w-5/6 rounded-full" />
             </div>
             </SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                 <img src={samus} alt="" className=" h-5/6 w-5/6 rounded-full" />
             </div>
             </SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                 <img src="" alt="" className=" h-5/6 w-5/6" />
             </div>
             </SwiperSlide>
-        <SwiperSlide className=" mx-2">
+        <SwiperSlide>
             <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
                 <img src="" alt="" className=" h-5/6 w-5/6" />
             </div>

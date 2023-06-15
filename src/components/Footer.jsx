@@ -7,7 +7,7 @@ export default function Footer()
 {
     return(
         <>
-        <div className="flex justify-evenly fixed w-full bottom-0 h-10 items-center bg-slate-100 z-10">
+        <div className="flex justify-around fixed w-full bottom-0 h-10 items-center bg-white z-10">
             <HiHome size= "25" cursor= "pointer" />
             <BiSearch size= "25" cursor= "pointer" />
             <FiPlusSquare size= "25" cursor= "pointer" />
