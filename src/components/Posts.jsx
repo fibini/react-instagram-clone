@@ -10,7 +10,7 @@ export default function Posts()
 {
     return(
         <>
-        <div className=" mb-10">
+        <div>
             <div className="flex justify-between px-3 items-center border-b-2 border-black">
                 <div className="flex items-center gap-2 py-2">
                     <div className="border-2 rounded-full w-8 h-8 border-slate-800 "></div>

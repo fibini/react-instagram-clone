@@ -1,22 +1,75 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/css';
+import cinema from "../assets/images/cinema.png"
+import gaming from "../assets/images/gaming-room.webp"
+import akuma from "../assets/images/HD-wallpaper-akuma.jpg"
+import mans from "../assets/images/Le-Mans.webp"
+import tokyo from "../assets/images/Tokyo.webp"
+import zimmer from "../assets/images/zimmer.webp"
+import samus from "../assets/images/Samus_Aran.png"
+
 export default function Status()
 {
     return(
         <>
-        <div className="flex border-b-2 border-black mt-5">
-            <div className=" flex flex-col items-center text-center">
-                <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-                <p className=" text-xs">Your story</p>
+        <Swiper
+        slidesPerView={7}
+        spaceBetween={5}
+        pagination={{
+          clickable: true,
+        }}
+        // modules={[Pagination]}
+        className=" h-20 px-3"
+        >
+        <SwiperSlide><img src={cinema} alt="" className=" h-14 w-14 rounded-full" /></SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className="flex flex-col text-center">
+                <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                    <img src={gaming} alt="" className=" h-5/6 w-5/6 rounded-full" />
+                </div>
+                <p className=" text-xs">gaming_room</p>
             </div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-            <div className="border-2 rounded-full w-14 h-14 border-slate-800 cursor-pointer"></div>
-        </div>
+            
+            </SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                <img src={akuma} alt="" className=" h-5/6 w-5/6 rounded-full" />
+            </div>
+            <p></p>
+            </SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                <img src={mans} alt="" className=" h-5/6 w-5/6 rounded-full" />
+            </div>
+            <p></p>
+            </SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                <img src={tokyo} alt="" className=" h-5/6 w-5/6 rounded-full" />
+            </div>
+            </SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                <img src={zimmer} alt="" className=" h-5/6 w-5/6 rounded-full" />
+            </div>
+            </SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                <img src={samus} alt="" className=" h-5/6 w-5/6 rounded-full" />
+            </div>
+            </SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                <img src="" alt="" className=" h-5/6 w-5/6" />
+            </div>
+            </SwiperSlide>
+        <SwiperSlide className=" mx-2">
+            <div className=" flex justify-center items-center h-16 rounded-full border-2 border-red-500">
+                <img src="" alt="" className=" h-5/6 w-5/6" />
+            </div>
+            </SwiperSlide>
+      </Swiper>
+
         </>
     )
 }
