@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 export default function App() {
   return (
     <>
-      <div className=" mb-15">
+      <div className=" mb-16">
         <Nav />
         <Status />
         <Posts />
