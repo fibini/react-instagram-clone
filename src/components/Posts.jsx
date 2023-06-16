@@ -1,6 +1,6 @@
 import { BsThreeDotsVertical } from "react-icons/bs"
 import { MdVerified } from "react-icons/md"
-import { BiHeart } from "react-icons/bi";
+import { AiOutlineHeart } from "react-icons/ai"
 import { SlPaperPlane } from "react-icons/sl"
 import { FiMessageCircle } from "react-icons/fi"
 import { HiOutlineBookmark } from "react-icons/hi"
@@ -32,7 +32,7 @@ export default function Posts()
             </div>
             <div className="flex justify-between px-3 py-2 items-center">
                 <div className="flex gap-2">
-                    <BiHeart size="25" />
+                    <AiOutlineHeart size="25" />
                     <FiMessageCircle size="25" />
                     <SlPaperPlane size="25" />
                 </div>

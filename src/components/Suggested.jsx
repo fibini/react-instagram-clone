@@ -2,8 +2,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
-import { BiPlay, BiMoviePlay } from "react-icons/bi"
+import { AiFillHeart } from "react-icons/ai"
+import { BiPlay, BiMoviePlay} from "react-icons/bi"
 import { BsThreeDotsVertical } from "react-icons/bs"
+import { SlPaperPlane } from "react-icons/sl"
+import { FiMessageCircle } from "react-icons/fi"
+import { HiOutlineBookmark } from "react-icons/hi"
 import cinema from "../assets/images/cinema.png"
 import gaming from "../assets/images/gaming-room.webp"
 import akuma from "../assets/images/HD-wallpaper-akuma.jpg"
@@ -79,6 +83,19 @@ export function Sugpost()
         <p>Watch Again</p>
       </div>
       <img src={gaming} alt="" />
+      <div className="flex justify-between px-3 py-2 items-center">
+                <div className="flex gap-2">
+                    <AiFillHeart size="25" color="red" />
+                    <FiMessageCircle size="25" />
+                    <SlPaperPlane size="25" />
+                </div>
+                <HiOutlineBookmark size="25" />
+            </div>
+            <div className=" px-3">
+                <strong>5,000,001, likes</strong><br />
+                <p><strong>terabyte_solutions</strong> gaming room of bliss</p>
+                <p>2 days ago</p>
+            </div>
     </div>
     </>
   )
