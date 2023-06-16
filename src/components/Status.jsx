@@ -23,8 +23,12 @@ export default function Status()
         breakpoints={{
             576: {
               // width: 576,
-              slidesPerView: 4,
+              slidesPerView: 5,
             },
+            650: {
+                // width: 768,
+                slidesPerView: 6,
+              },
             768: {
               // width: 768,
               slidesPerView: 7,
