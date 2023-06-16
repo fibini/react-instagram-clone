@@ -16,6 +16,7 @@ import tokyo from "../assets/images/Tokyo.webp"
 import zimmer from "../assets/images/zimmer.webp"
 import samus from "../assets/images/Samus_Aran.png"
 import terabytelogo from "../assets/images/terabytelogo.jpg"
+import computer from "../assets/images/computer.jpg"
 
 export default function Suggested()
 {
@@ -47,8 +48,8 @@ export default function Suggested()
         <SwiperSlide><img src={tokyo} alt="" className=" h-full rounded-md" /></SwiperSlide>
         <SwiperSlide><img src={zimmer} alt="" className=" h-full rounded-md" /></SwiperSlide>
         <SwiperSlide><img src={samus} alt="" className=" h-full rounded-md" /></SwiperSlide>
-        <SwiperSlide><img src="" alt="" className=" h-full" /></SwiperSlide>
-        <SwiperSlide><img src="" alt="" className=" h-full" /></SwiperSlide>
+        <SwiperSlide><img src={terabytelogo} alt="" className=" h-full rounded-md" /></SwiperSlide>
+        <SwiperSlide><img src={computer} alt="" className=" h-full rounded-md" /></SwiperSlide>
       </Swiper>
 
         </>
