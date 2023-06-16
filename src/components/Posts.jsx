@@ -5,6 +5,7 @@ import { SlPaperPlane } from "react-icons/sl"
 import { FiMessageCircle } from "react-icons/fi"
 import { HiOutlineBookmark } from "react-icons/hi"
 import manchesterunited from "../assets/images/manchesterunited.jpg"
+import manchesterlogo from "../assets/images/Manchester_United_FC.png"
 
 export default function Posts()
 {
@@ -13,7 +14,9 @@ export default function Posts()
         <div>
             <div className="flex justify-between px-3 items-center border-b-2 border-black">
                 <div className="flex items-center gap-2 py-2">
-                    <div className="border-2 rounded-full w-8 h-8 border-slate-800 "></div>
+                    <div>
+                        <img className="border-2 rounded-full w-8 h-8 " src={manchesterlogo} alt="" />
+                    </div>
                     <div>
                         <div className=" flex gap-1">
                             <p className="text-xs font-bold">manchesterunited</p>
