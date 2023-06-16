@@ -12,7 +12,7 @@ export default function Nav() {
       <div className=" flex justify-between px-3 pb-5 mt-8">
         <div>
           <div className=" flex items-end cursor-pointer" onClick={() => setDropDownOpen((prev) => !prev)}>
-            <h1>Instagram</h1>
+            <h1 id="instagram" className=" text-xl">Instagram</h1>
             <RxCaretDown
               size="18"
             />
