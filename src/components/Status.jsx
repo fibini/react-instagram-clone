@@ -16,7 +16,7 @@ export default function Status()
         <>
         <Swiper
         slidesPerView={4}
-        spaceBetween={5}
+        spaceBetween={3}
         pagination={{
           clickable: true,
         }}
