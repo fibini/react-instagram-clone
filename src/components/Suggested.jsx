@@ -34,9 +34,19 @@ export default function Suggested()
         </div>
         <Swiper
         slidesPerView={4}
-        spaceBetween={5}
+        spaceBetween={3}
         pagination={{
           clickable: true,
+        }}
+        breakpoints={{
+          576: {
+            // width: 576,
+            slidesPerView: 4,
+          },
+          768: {
+            // width: 768,
+            slidesPerView: 7,
+          },
         }}
         modules={[Pagination]}
         className="mySwiper h-52 px-3 pb-3"

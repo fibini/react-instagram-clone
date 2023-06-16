@@ -20,7 +20,16 @@ export default function Status()
         pagination={{
           clickable: true,
         }}
-        // modules={[Pagination]}
+        breakpoints={{
+            576: {
+              // width: 576,
+              slidesPerView: 4,
+            },
+            768: {
+              // width: 768,
+              slidesPerView: 7,
+            },
+          }}
         className=" h-25 pb-2"
         >
         <SwiperSlide className=" text-center">
