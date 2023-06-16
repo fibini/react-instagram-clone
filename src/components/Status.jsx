@@ -23,15 +23,15 @@ export default function Status()
         breakpoints={{
             576: {
               // width: 576,
-              slidesPerView: 5,
+              slidesPerView: 6,
             },
             650: {
                 // width: 768,
-                slidesPerView: 6,
+                slidesPerView: 7,
               },
             768: {
               // width: 768,
-              slidesPerView: 7,
+              slidesPerView: 8,
             },
           }}
         className=" h-25 pb-2"
