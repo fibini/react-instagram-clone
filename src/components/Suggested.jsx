@@ -56,23 +56,23 @@ export function Sugpost()
   return(
     <>
     <div>
-      <div className=" absolute flex justify-between w-full px-3 text-white">
+      <div className=" absolute flex justify-between w-full px-3 pt-2 text-white">
         <div className=" flex items-center gap-2">
           <div>
             <img className=" rounded-full w-8 h-8" src={terabytelogo} alt="" />
           </div>
-          <div>
-            <p>terabyte_solutions</p>
+          <div className=" text-xs">
+            <p className=" font-bold">terabyte_solutions</p>
             <p>tech . repairs</p>
           </div>
         </div>
         <div className=" flex items-center gap-2">
-          <button className=" border-2 border-white w-20 h-8 rounded-lg">Follow</button>
+          <button className=" border-2 border-white w-20 h-8 rounded-lg text-sm">Follow</button>
           <BsThreeDotsVertical size="25" />
         </div>
       </div>
       <div className=" absolute flex flex-col w-full items-center justify-center mt-56 text-white">
-        <button className=" flex items-center justify-center gap-1 w-44 border-2 rounded-lg border-black bg-slate-800 opacity-70">
+        <button className=" flex items-center justify-center gap-1 w-44 h-10 border-2 rounded-lg border-black bg-slate-800 opacity-70">
         <BiMoviePlay  />
           <p>Watch more reels</p>
         </button>
