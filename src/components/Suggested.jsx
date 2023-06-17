@@ -86,7 +86,7 @@ export function Sugpost()
           <BsThreeDotsVertical size="25" />
         </div>
       </div>
-      <div className=" absolute flex flex-col w-full items-center justify-center mt-48 text-white">
+      <div className=" absolute flex flex-col w-full h-1/2 items-center justify-center text-white">
         <button className=" flex items-center justify-center gap-1 w-44 h-10 border-2 rounded-lg border-black bg-slate-800 opacity-70">
         <BiMoviePlay  />
           <p>Watch more reels</p>
