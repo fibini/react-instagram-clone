@@ -22,9 +22,6 @@ export default function Suggested()
 {
     return(
         <>
-        <div className=" flex text-base items-center px-3 font-bold border-y-2 py-2">
-          <p>Suggested posts</p>
-        </div>
         <div className="flex justify-between px-3 pb-3 pt-2">
             <strong>Suggested reels</strong>
             <div className="flex items-center">
@@ -71,6 +68,9 @@ export function Sugpost()
   return(
     <>
     <div>
+      <div className=" flex text-base items-center px-3 font-bold border-y-2 py-2">
+          <p>Suggested posts</p>
+      </div>
       <div className=" absolute flex justify-between w-full px-3 pt-2 text-white">
         <div className=" flex items-center gap-2">
           <div>

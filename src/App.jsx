@@ -4,6 +4,7 @@ import Posts from "./components/Posts"
 import Caught from "./components/Caught-up"
 import Suggested from "./components/Suggested"
 import { Sugpost } from "./components/Suggested"
+// import PostMenu from "./components/PostMenu"
 import Footer from "./components/Footer"
 
 export default function App() {
@@ -13,8 +14,9 @@ export default function App() {
         <Nav />
         <Status />
         <Posts />
-        <Caught />
+        {/* <PostMenu /> */}
         <Suggested />
+        <Caught />
         <Sugpost />
       </div>
       <Footer />
