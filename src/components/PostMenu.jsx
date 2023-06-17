@@ -12,7 +12,7 @@ export default function PostMenu()
     return(
         <>
         <div className="fixed h-full w-full bg-black opacity-70 z-20 top-0"></div>
-        <div className="bg-white bottom-0 z-30 h-2/3 w-full fixed rounded-t-xl max-sm:h-1/2">
+        <div className="bg-white bottom-0 z-30 h-2/3 w-full fixed rounded-t-xl">
             <div className=" flex justify-around items-center border-b-2 h-24 px-10 mt-2">
                 <div className=" text-center">
                     <div className=" flex justify-center items-center border-2 border-black rounded-full h-14 w-14">
