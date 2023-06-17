@@ -10,8 +10,8 @@ import Footer from "./components/Footer"
 export default function App() {
   return (
     <>
-      <div className=" mb-10">
-        <Nav />
+      <Nav />
+      <div className=" mb-10 mt-12">
         <Status />
         <Posts />
         {/* <PostMenu /> */}
