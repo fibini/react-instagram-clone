@@ -9,7 +9,7 @@ export default function Nav() {
 
   return (
     <>
-      <div className=" flex justify-between px-3 pt-3 fixed w-full z-10 bg-white top-0 items-center">
+      <div className=" flex justify-between px-3 pt-3 fixed w-full z-10 bg-white top-0 items-center h-14">
         <div>
           <div className=" flex items-end cursor-pointer" onClick={() => setDropDownOpen((prev) => !prev)}>
             <h1 id="instagram" className=" text-2xl">Instagram</h1>
