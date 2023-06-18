@@ -97,7 +97,7 @@ export default function Posts()
                 </div>
             )}
             <div>
-                <img src={manchesterunited} alt="manchester united photo" />
+                <img src={manchesterunited} alt="manchester united photo" className=" w-full h-full" />
             </div>
             <div className="flex justify-between px-3 py-2 items-center">
                 <div className="flex gap-2">

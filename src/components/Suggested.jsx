@@ -93,7 +93,7 @@ export function Sugpost()
         </button>
         <p>Watch Again</p>
       </div>
-      <img src={gaming} alt="" />
+      <img src={gaming} alt="gaming room post" className=" w-full h-full" />
       <div className="flex justify-between px-3 py-2 items-center">
                 <div className="flex gap-2">
                     <AiFillHeart size="25" color="red" />
